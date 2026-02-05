@@ -1,73 +1,148 @@
-# Welcome to your Lovable project
+# 🍰 Sweet Cake Shop
 
-## Project info
+A modern, responsive React-based e-commerce application for ordering delicious cakes and sweet treats online.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern UI/UX**: Built with React, TypeScript, and Tailwind CSS
+- **Component Library**: Utilizes Radix UI components for accessibility
+- **Responsive Design**: Mobile-first approach with beautiful layouts
+- **Shopping Cart**: Full cart functionality with add/remove items
+- **Product Catalog**: Browse and filter through various cake categories
+- **Order Management**: Complete checkout and order tracking system
+- **Animations**: Smooth transitions using Framer Motion
+- **Dark Mode**: Theme switching capability
+- **Form Validation**: Robust form handling with React Hook Form
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Frontend
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Styling framework
+- **Radix UI** - Accessible component primitives
+- **Lucide React** - Icon library
+- **Framer Motion** - Animation library
+- **React Router DOM** - Client-side routing
+- **React Query** - Server state management
+- **React Hook Form** - Form management
+- **Zod** - Schema validation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Development Tools
+- **ESLint** - Code linting
+- **Vitest** - Testing framework
+- **Testing Library** - React testing utilities
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd sweet-cake-shop
+```
 
-Follow these steps:
+2. Install dependencies:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── context/       # React context providers
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+├── types/         # TypeScript type definitions
+├── data/          # Static data and mock data
+├── test/          # Test files
+└── styles/        # Global styles
+```
 
-This project is built with:
+## 🎨 Key Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Product Management
+- Browse cakes by category
+- Search and filter products
+- Detailed product views
+- Price and availability information
 
-## How can I deploy this project?
+### Shopping Experience
+- Add items to cart
+- Update quantities
+- Remove items
+- Calculate totals with tax
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### User Interface
+- Responsive navigation
+- Product carousel
+- Image galleries
+- Loading states
+- Error boundaries
 
-## Can I connect a custom domain to my Lovable project?
+## 🧪 Testing
 
-Yes, you can!
+The project includes a comprehensive testing setup using Vitest and React Testing Library.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Run tests:
+```bash
+npm run test
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Contact
+
+For support or questions, please reach out to the development team.
+
+---
+
+Built with ❤️ and lots of 🍰
