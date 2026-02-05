@@ -1,148 +1,100 @@
 # 🍰 Sweet Cake Shop
 
-A modern, responsive React-based e-commerce application for ordering delicious cakes and sweet treats online.
+A premium, production-ready React e-commerce application for ordering delicious cakes and sweet treats. This project is built with a focus on high performance, professional design, and seamless user experience.
 
-## 🌟 Features
+[![CI](https://github.com/arunk/sweet-cake-shop/actions/workflows/ci.yml/badge.svg)](https://github.com/arunk/sweet-cake-shop/actions)
+[![License: MIT](https://img.sc.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Vercel Deployment](https://img.sc.io/badge/Vercel-Deployed-black?logo=vercel)](https://sweet-cake-shop.vercel.app)
 
-- **Modern UI/UX**: Built with React, TypeScript, and Tailwind CSS
-- **Component Library**: Utilizes Radix UI components for accessibility
-- **Responsive Design**: Mobile-first approach with beautiful layouts
-- **Shopping Cart**: Full cart functionality with add/remove items
-- **Product Catalog**: Browse and filter through various cake categories
-- **Order Management**: Complete checkout and order tracking system
-- **Animations**: Smooth transitions using Framer Motion
-- **Dark Mode**: Theme switching capability
-- **Form Validation**: Robust form handling with React Hook Form
+## 🌟 Live Demo
+
+Check out the live application here: [sweet-cake-shop.vercel.app](https://sweet-cake-shop.vercel.app)
+
+## ✨ Key Features
+
+- **💎 Premium UI/UX**: Crafted with React, TypeScript, and Tailwind CSS for a smooth, high-end feel.
+- **🧩 Accessible Components**: Built using Radix UI primitives ensuring the highest accessibility standards.
+- **📱 Fully Responsive**: Optimized for every screen size, from mobile phones to ultra-wide monitors.
+- **🛒 Dynamic Cart System**: Real-time cart management with quantity adjustments and persistent state.
+- **🎨 Modern Animations**: fluid interface transitions utilizing Framer Motion.
+- **🌗 Theme Support**: Native dark mode and light mode support with seamless switching.
+- **✅ Robust Validation**: Type-safe forms and schema validation using React Hook Form and Zod.
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and development server
-- **Tailwind CSS** - Styling framework
-- **Radix UI** - Accessible component primitives
-- **Lucide React** - Icon library
-- **Framer Motion** - Animation library
-- **React Router DOM** - Client-side routing
-- **React Query** - Server state management
-- **React Hook Form** - Form management
-- **Zod** - Schema validation
+- **Framework**: [React 18](https://reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Bundler/Dev Server**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Components**: [Radix UI](https://www.radix-ui.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Routing**: [React Router v6](https://reactrouter.com/)
+- **State Management**: [TanStack Query](https://tanstack.com/query/latest)
 
-### Development Tools
-- **ESLint** - Code linting
-- **Vitest** - Testing framework
-- **Testing Library** - React testing utilities
-
-## 🚀 Getting Started
+## 🚀 Professional Setup
 
 ### Prerequisites
-- Node.js (v18 or higher)
+
+- Node.js (v18.0.0 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd sweet-cake-shop
-```
 
-2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   git clone https://github.com/arunk/sweet-cake-shop.git
+   cd sweet-cake-shop
+   ```
 
-3. Start the development server:
-```bash
-npm run dev
-```
+2. Install dependencies with exact versions:
 
-4. Open your browser and navigate to `http://localhost:5173`
+   ```bash
+   npm ci
+   ```
 
-## 📦 Available Scripts
+3. Configure Environment Variables:
+   Create a `.env` file in the root directory (refer to `.env.example` if available).
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run test` - Run tests
-- `npm run test:watch` - Run tests in watch mode
+4. Launch Development Environment:
+   ```bash
+   npm run dev
+   ```
 
-## 🏗️ Project Structure
+## 🏗️ Deployment
 
-```
-src/
-├── components/     # Reusable UI components
-├── pages/         # Page components
-├── context/       # React context providers
-├── hooks/         # Custom React hooks
-├── lib/           # Utility functions
-├── types/         # TypeScript type definitions
-├── data/          # Static data and mock data
-├── test/          # Test files
-└── styles/        # Global styles
-```
+### Deploy to Vercel
 
-## 🎨 Key Features
+The project is optimized for Vercel. SPA routing is handled via `vercel.json` to prevent 404 errors on page refresh.
 
-### Product Management
-- Browse cakes by category
-- Search and filter products
-- Detailed product views
-- Price and availability information
+1. Connect your repository to Vercel.
+2. The `vercel.json` configuration will automatically handle the routing rewrites.
+3. Ensure the build command is `npm run build` and output directory is `dist`.
 
-### Shopping Experience
-- Add items to cart
-- Update quantities
-- Remove items
-- Calculate totals with tax
+## 🧪 Testing & Quality Assurance
 
-### User Interface
-- Responsive navigation
-- Product carousel
-- Image galleries
-- Loading states
-- Error boundaries
+Maintain high code quality with our integrated suite:
 
-## 🧪 Testing
-
-The project includes a comprehensive testing setup using Vitest and React Testing Library.
-
-Run tests:
-```bash
-npm run test
-```
-
-Run tests in watch mode:
-```bash
-npm run test:watch
-```
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- `npm run lint`: Static analysis and linting checks.
+- `npm run test`: Execute the test suite with Vitest.
+- `npm run build`: Production-grade build verification.
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on branch naming, commit messages, and the development workflow.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## 👤 Author
 
-For support or questions, please reach out to the development team.
+**Arun K**
+
+- GitHub: [@arunk](https://github.com/arunk)
+- LinkedIn: [Your Profile Link Here]
 
 ---
 
-Built with ❤️ and lots of 🍰
+Managed with ❤️ by the Sweet Cake Shop Team.
